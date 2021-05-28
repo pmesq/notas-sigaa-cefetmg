@@ -1,0 +1,19 @@
+{
+  "name": "notas-sigaa-cefetmg",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pcmferreira/notas-sigaa-cefetmg.git"
+  },
+  "author": "Pedro César Mesquita Ferreira",
+  "main": "index.js",
+  "scripts": {
+    "build": "node src/build.js",
+    "open": "open-cli dist/index.html"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "open-cli": "^6.0.1"
+  }
+}
